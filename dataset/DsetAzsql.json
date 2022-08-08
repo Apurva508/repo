@@ -1,0 +1,17 @@
+{
+	"name": "DsetAzsql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabasell",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "samplesales"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

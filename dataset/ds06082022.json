@@ -1,0 +1,25 @@
+{
+	"name": "ds06082022",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragell",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Doc1.txt",
+				"folderPath": "direct1",
+				"container": "container1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
